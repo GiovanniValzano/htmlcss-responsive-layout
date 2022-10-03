@@ -16,6 +16,7 @@ nav {
     left: 0;
     right: 0;
     height: 40px;
+    padding-right: 10px;
 }
 
 .navbtn {
@@ -29,7 +30,7 @@ nav {
     margin-top: 7px;
 }
 
-main {
+.bluecardscont {
     margin-top: 80px;
     padding-left: 25px;
     padding-right: 25px;
@@ -40,7 +41,7 @@ main {
     border-radius: 20px;
     padding: 15px 20px 10px 20px;
     margin-bottom: 20px;
-    line-height: 1.6;
+    line-height: 1.4;
 }
 
 .bluecards h2 {
@@ -51,6 +52,7 @@ main {
 .bluecards p {
     font-weight: 550;
     color: rgba(90, 110, 127, 1);
+    font-size: 18px;
 }
 
 .bluecards a {
@@ -60,6 +62,8 @@ main {
     padding: 7px 33px 7px 33px;
     border-radius: 20px;
     font-size: 18px;    
+    display: inline-block;
+    min-width: 55px;
 }
 
 .bluecardsbtn {
@@ -85,4 +89,52 @@ main {
 
 .textcenter {
     text-align: center;
+}
+
+.color {
+    background-color: rgba(151, 146, 228, 1);
+    padding: 25px;
+    margin-top: 70px;
+    line-height: 1.4;
+}
+
+.color img {
+    width: 100%;
+}
+
+.color h3 {
+    font-size: 30px;
+    color: white;
+}
+
+.color p {
+    color: white;
+    font-size: 18px;
+}
+
+.developcard {
+    background-color: white;
+    border-radius: 30px;
+    padding: 15px 20px 20px 20px;
+    margin-bottom: 20px;
+    line-height: 1.4;
+}
+
+.developcard h4 {
+    font-size: 20px;
+}
+
+.developcard p {
+    color: black;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.developcard a {
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+    background-color: rgba(151, 146, 228, 1);
+    padding: 4px 8px 4px 8px;
+    border-radius: 100%;
 }
