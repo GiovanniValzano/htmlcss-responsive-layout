@@ -1,0 +1,88 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+
+nav {
+    background-color: rgba(0, 132, 253, 1);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 40px;
+}
+
+.navbtn {
+    border: 0px;
+    background: none;
+    color: white;
+    font-size: 20px;
+}
+
+.navlogo {
+    margin-top: 7px;
+}
+
+main {
+    margin-top: 80px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.bluecards {
+    background-color: rgba(181, 221, 255, 1);
+    border-radius: 20px;
+    padding: 15px 20px 10px 20px;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.bluecards h2 {
+    color: rgba(0, 132, 253, 1);
+    margin-top: 0px;
+}
+
+.bluecards p {
+    font-weight: 550;
+    color: rgba(90, 110, 127, 1);
+}
+
+.bluecards a {
+    text-decoration: none;
+    color: white;
+    background-color: rgba(0, 132, 253, 1);
+    padding: 7px 33px 7px 33px;
+    border-radius: 20px;
+    font-size: 18px;    
+}
+
+.bluecardsbtn {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.bluecards .bluecardsimg img {
+    width: 100%;
+    display: block;
+}
+
+.bluecardsimg {
+    margin-bottom: -10px;
+}
+
+.bluecards h3 {
+    color: rgba(0, 132, 253, 1);
+    font-size: 70px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.textcenter {
+    text-align: center;
+}
