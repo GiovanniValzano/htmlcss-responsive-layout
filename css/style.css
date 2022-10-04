@@ -12,6 +12,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     position: fixed;
+    z-index: 999;
     top: 0;
     left: 0;
     right: 0;
@@ -63,7 +64,6 @@ nav {
     border-radius: 20px;
     font-size: 18px;    
     display: inline-block;
-    min-width: 55px;
 }
 
 .bluecardsbtn {
@@ -137,4 +137,205 @@ nav {
     background-color: rgba(151, 146, 228, 1);
     padding: 4px 8px 4px 8px;
     border-radius: 100%;
+}
+
+.testimonials {
+    line-height: 1.4;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.testimonials h5 {
+    font-size: 23px;
+    font-weight: 300;
+    margin-bottom: 0px;
+}
+
+.testimonials h2 {
+    color: rgba(151, 146, 228, 1);
+}
+
+.testtext {
+    margin-bottom: 40px;
+}
+
+.purplecards {
+    background-color: rgba(151, 146, 228, 1);
+    color: white;
+    border-radius: 30px;
+    padding: 30px 20px 20px 20px;
+    margin-bottom: 20px;
+    line-height: 1.4;
+}
+
+.purpleimg img {
+    width: 100%;
+    clip-path: circle();
+}
+
+.purplecards p {
+    font-size: 18px;
+}
+
+.purplecards h6 {
+    font-size: 25px;
+    margin: 8px;
+}
+
+.benefitstitle {
+    text-align: center;
+}
+
+.whitecards {
+    background-color: white;
+    border-radius: 30px;
+    padding: 20px 20px 25px 20px;
+    margin-bottom: 20px;
+    line-height: 1.4;
+}
+
+.whitecards h2 {
+    font-size: 50px;
+    color: rgba(151, 146, 228, 1);
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+
+.whitecards h4 {
+    font-size: 25px;
+    color: rgba(151, 146, 228, 1);
+    margin-top: 0px;
+}
+
+.whitecards p {
+    color: rgba(90, 110, 127, 1);
+    font-size: 18px;
+}
+
+.whitecards a {
+    text-decoration: none;
+    color: white;
+    background-color: rgba(151, 146, 228, 1);
+    padding: 7px 33px 7px 33px;
+    border-radius: 20px;
+    font-size: 18px;    
+    display: inline-block;
+}
+
+.aboutus {
+    line-height: 1.4;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.aboutus .abouttitle {
+    font-size: 35px;
+    color: rgba(151, 146, 228, 1);
+    margin-top: 50px;
+}
+
+.aboutus .abouttext {
+    font-size: 18px;
+}
+
+.aboutimg {
+    position: relative;
+    margin-top: 50px;
+    width: 60%;
+}
+
+.aboutimg img {
+    width: 100%;
+    clip-path: circle();
+    z-index: 1;
+}
+
+.aboutimg .aboutsimbol {
+    font-size: 50px;
+    color: rgba(151, 146, 228, 1);
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 2;
+}
+
+.aboutsubtitle {
+    font-size: 23px;
+    color: rgba(151, 146, 228, 1);
+    margin-top: 30px;
+}
+
+.aboutus a {
+    text-decoration: none;
+    color: white;
+    background-color: rgba(151, 146, 228, 1);
+    padding: 7px 33px 7px 33px;
+    border-radius: 20px;
+    font-size: 18px;    
+    display: inline-block;
+}
+
+.backcolor {
+    line-height: 1.4;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: rgba(151, 146, 228, 1);
+    padding-top: 20px;
+    margin-top: 30px;
+    padding-bottom: 50px;
+}
+
+.backcolor h3 {
+    font-weight: 300;
+    font-size: 23px;
+    color: white;
+    margin-top: 0px;
+}
+
+.backcolor h4 {
+    font-size: 28px;
+    margin-top: 0px;
+    color: white;
+    margin-bottom: 0px;
+}
+
+.backcolor h5 {
+    font-size: 44px;
+    margin-top: 25px;
+    color: rgba(253, 193, 95, 1);
+    margin-bottom: 25px;
+}
+
+.backcolor p {
+    color: white;
+    font-size: 18px;
+}
+
+.backcolor a {
+    text-decoration: none;
+    color: rgba(151, 146, 228, 1);
+    background-color: white;
+    padding: 7px 33px 7px 33px;
+    border-radius: 20px;
+    font-size: 22px;    
+    display: inline-block;
+    font-weight: 600;
+}
+
+.backcolor h6 {
+    font-size: 15px;
+    color: white;
+    margin-bottom: 0px;
+    font-weight: 300;
+}
+
+footer {
+    line-height: 1.4;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: rgba(51, 51, 51, 1);
+    padding-top: 20px;
+    padding-bottom: 50px;
+    color: white;
+    font-size: 18px;
 }
