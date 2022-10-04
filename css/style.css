@@ -7,17 +7,23 @@ body {
 
 nav {
     background-color: rgba(0, 132, 253, 1);
-    padding: 10px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     position: fixed;
     z-index: 999;
     top: 0;
     left: 0;
     right: 0;
-    height: 40px;
-    padding-right: 10px;
+    height: 70px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.navlistcontainer {
+    display: none;
 }
 
 .navbtn {
@@ -32,7 +38,7 @@ nav {
 }
 
 .bluecardscont {
-    margin-top: 80px;
+    margin-top: 100px;
     padding-left: 25px;
     padding-right: 25px;
 }
@@ -168,7 +174,7 @@ nav {
     line-height: 1.4;
 }
 
-.purpleimg img {
+.purplecardsimg img {
     width: 100%;
     clip-path: circle();
 }
@@ -338,4 +344,151 @@ footer {
     padding-bottom: 50px;
     color: white;
     font-size: 18px;
+}
+
+@media screen and (min-width : 480px) {
+
+    .bluecardscont {
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 20px;
+    }
+
+    .bluecards {
+        flex: 1 0 calc((100% - 100px) / 2);
+    }
+
+    .bluecardsfirst {
+        flex: 1 1 100%;
+    }
+
+    .bluecardsimg {
+        width: 60%;
+        margin: 0 auto -10px;
+    }
+
+    .purplecards {
+        display: flex;
+        align-items: center;
+        text-align: left;
+    }
+
+    .purplecardsimg {
+        max-width: 300px;
+    }
+
+    .whitecardscontainer {
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 20px;
+    }
+
+    .whitecards {
+        flex: 1 0 calc((100% - 100px) / 2);
+    }
+
+    .aboutus {
+        display: flex;
+        column-gap: 50px;
+    }
+
+    .aboutusimgcont {
+        max-width: 40%;
+    }
+
+    .aboutimg {
+        max-width: 300px;
+    }
+
+    .aboutimg .aboutsimbol {
+        font-size: 20px;
+    }
+
+    .aboutsubtitle {
+        font-size: 18px;
+    }
+
+}
+
+@media screen and (min-width : 690px) {
+    
+    .bluecardscont {
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 20px;
+    }
+
+    .bluecards {
+        flex: 1 0 calc((100% - 200px) / 3);
+    }
+
+    .bluecardsfirst {
+        flex: 2 0 calc((100% - 100px) / 3 * 2);
+    }
+
+    .bluecardsimg {
+        width: 50%;
+    }
+
+}
+
+@media screen and (min-width : 811px) {
+
+    .container {
+        max-width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .smallcontainer {
+        max-width: 1000px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .smallestcontainer {
+        max-width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .purplesection {
+        display: flex;
+        align-items: flex-end;
+        column-gap: 70px;
+    }
+
+    .purplesectionimgcont {
+        flex: 1 1 60%;
+    }
+
+    .developcard {
+        flex: 0 1 40%;
+    }
+
+    .navbtn {
+        display: none;
+    }
+
+    .navlistcontainer {
+        display: flex;
+        align-items: center;column-gap: 20px;
+    }
+
+    .navlist {
+        display: flex;
+        list-style: none;
+        column-gap: 20px;
+        color: white;
+    }
+
+    .navlistbtn {
+        text-decoration: none;
+        color: black;
+        background-color: white;
+        padding: 7px 20px 7px 20px;
+        border-radius: 20px;
+        font-size: 18px;    
+        display: inline-block;
+    }
 }

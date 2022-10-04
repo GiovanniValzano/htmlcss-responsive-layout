@@ -11,21 +11,34 @@
 </head>
 <body>
     <nav>
-        <div class="navlogo">
-            <img src="img/logo.png" alt="">
+        <div class="navbar container">
+            <div class="navlogo">
+                <img src="img/logo.png" alt="">
+            </div>
+            <div class="navlistcontainer">
+                <ul class="navlist">
+                    <li>Planning</li>
+                    <li>Testimonials</li>
+                    <li>Features</li>
+                    <li>About Us</li>
+                </ul>
+                <a href="#!" class="navlistbtn">Get Started</a>
+            </div>
+            <button class="navbtn">
+                <i class="fa fa-reorder"></i>
+            </button>        
         </div>
-        <button class="navbtn">
-            <i class="fa fa-reorder"></i>
-        </button>    
     </nav>
     <main>
         <!-- Sezione card blu -->
-        <div class="bluecardscont">
-            <div class="bluecards">
-                <h2>Get a demo application</h2>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi, sapiente. Similique numquam repellendus magni vitae quos.</p>
-                <div class="bluecardsbtn">
-                    <a href="#!"><i class="fa fa-apple"></i> App Store</a>
+        <div class="bluecardscont container">
+            <div class="bluecards bluecardsfirst">
+                <div class="firstbluecardcont">
+                    <h2>Get a demo application</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi, sapiente. Similique numquam repellendus magni vitae quos.</p>
+                    <div class="bluecardsbtn">
+                        <a href="#!"><i class="fa fa-apple"></i> App Store</a>
+                    </div>
                 </div>
                 <div class="bluecardsimg">
                     <img src="img/phone.png" alt="">
@@ -54,96 +67,114 @@
         </div>
         <!-- Sezione viola -->
         <div class="color">
-            <div class="purpleimg">
-                <img src="img/planning1.png" alt="">
-            </div>
-            <h3>Strategic planning</h3>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur ea nam corporis! Nostrum ab architecto fugiat minima, similique labore repellat inventore corporis dolorum natus sit cumque ipsum sed veritatis odit.</p>
-            <div class="developcard textcenter">
-                <img src="img/planning2.png" alt="">
-                <h4>App Development</h4>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil dolores temporibus eum ullam quam.</p>
-                <a href="#!"><i class="fa fa-arrow-down"></i></a>
+            <div class="purplesection smallcontainer">
+                <div class="purplesectionimgcont">
+                    <div class="purpleimg">
+                        <img src="img/planning1.png" alt="">
+                    </div>
+                    <h3>Strategic planning</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur ea nam corporis! Nostrum ab architecto fugiat minima, similique labore repellat inventore corporis dolorum natus sit cumque ipsum sed veritatis odit.</p>    
+                </div>
+                <div class="developcard textcenter">
+                    <img src="img/planning2.png" alt="">
+                    <h4>App Development</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil dolores temporibus eum ullam quam.</p>
+                    <a href="#!"><i class="fa fa-arrow-down"></i></a>
+                </div>    
             </div>
         </div>
         <!-- Sezione Testimonials -->
-        <section class="testimonials textcenter">
+        <section class="testimonials textcenter container">
             <h5>Testimonials</h5>
             <h2>We are committed expert partners</h2>
             <p class="testtext">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, tempore, corrupti sint minima nobis quaerat pariatur quod.</p>
             <div class="purplecards">
-                <div class="purpleimg">
+                <div class="purplecardsimg">
                     <img src="img/testimonial1.jpg" alt="">
                 </div>
-                <p><i class="fa fa-quote-left"></i> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur aperiam sunt esse obcaecati eos suscipit consectetur. <i class="fa fa-quote-right"></i></p>
-                <h6>NAT REYNOLDS</h6>
+                <div class="testimonialconts">
+                    <p><i class="fa fa-quote-left"></i> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur aperiam sunt esse obcaecati eos suscipit consectetur. <i class="fa fa-quote-right"></i></p>
+                    <h6>NAT REYNOLDS</h6>
+                </div>
             </div>
             <div class="purplecards">
-                <div class="purpleimg">
+                <div class="purplecardsimg">
                     <img src="img/testimonial2.jpg" alt="">
                 </div>
-                <p><i class="fa fa-quote-left"></i> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur aperiam sunt esse obcaecati eos suscipit consectetur. <i class="fa fa-quote-right"></i></p>
-                <h6>CELIA ALMEDA</h6>
+                <div class="testimonialconts">
+                    <p><i class="fa fa-quote-left"></i> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur aperiam sunt esse obcaecati eos suscipit consectetur. <i class="fa fa-quote-right"></i></p>
+                    <h6>CELIA ALMEDA</h6>
+                </div>
             </div>
             <div class="purplecards">
-                <div class="purpleimg">
+                <div class="purplecardsimg">
                     <img src="img/testimonial3.jpg" alt="">
                 </div>
-                <p><i class="fa fa-quote-left"></i> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur aperiam sunt esse obcaecati eos suscipit consectetur. <i class="fa fa-quote-right"></i></p>
-                <h6>BOB ROBERTS</h6>
+                <div class="testimonialconts">
+                    <p><i class="fa fa-quote-left"></i> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur aperiam sunt esse obcaecati eos suscipit consectetur. <i class="fa fa-quote-right"></i></p>
+                    <h6>BOB ROBERTS</h6>
+                </div>
             </div>
         </section>
         <!-- Sezione Benefits -->
         <section class="color">
-            <h3 class="benefitstitle">Benefits of working whit us</h3>
-            <div class="whitecards">
-                <h2>01</h2>
-                <h4>High Quality</h4>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi inventore temporibus quas, nulla officia deleniti enim laudantium.</p>
-                <a href="#!">more</a>
-            </div>
-            <div class="whitecards">
-                <h2>02</h2>
-                <h4>Creative Team</h4>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi inventore temporibus quas, nulla officia deleniti enim laudantium.</p>
-                <a href="#!">more</a>
-            </div>
-            <div class="whitecards">
-                <h2>03</h2>
-                <h4>Amazing Results</h4>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi inventore temporibus quas, nulla officia deleniti enim laudantium.</p>
-                <a href="#!">more</a>
-            </div>
-            <div class="whitecards">
-                <h2>04</h2>
-                <h4>Best Pricing</h4>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi inventore temporibus quas, nulla officia deleniti enim laudantium.</p>
-                <a href="#!">more</a>
-            </div>
-            <div class="whitecards">
-                <h2>05</h2>
-                <h4>Innovations</h4>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi inventore temporibus quas, nulla officia deleniti enim laudantium.</p>
-                <a href="#!">more</a>
-            </div>
-            <div class="whitecards">
-                <h2>06</h2>
-                <h4>24/7 Support</h4>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi inventore temporibus quas, nulla officia deleniti enim laudantium.</p>
-                <a href="#!">more</a>
+            <div class="container">
+                <h3 class="benefitstitle">Benefits of working whit us</h3>
+                <div class="whitecardscontainer">
+                    <div class="whitecards">
+                        <h2>01</h2>
+                        <h4>High Quality</h4>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi inventore temporibus quas, nulla officia deleniti enim laudantium.</p>
+                        <a href="#!">more</a>
+                    </div>
+                    <div class="whitecards">
+                        <h2>02</h2>
+                        <h4>Creative Team</h4>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi inventore temporibus quas, nulla officia deleniti enim laudantium.</p>
+                        <a href="#!">more</a>
+                    </div>
+                    <div class="whitecards">
+                        <h2>03</h2>
+                        <h4>Amazing Results</h4>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi inventore temporibus quas, nulla officia deleniti enim laudantium.</p>
+                        <a href="#!">more</a>
+                    </div>
+                    <div class="whitecards">
+                        <h2>04</h2>
+                        <h4>Best Pricing</h4>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi inventore temporibus quas, nulla officia deleniti enim laudantium.</p>
+                        <a href="#!">more</a>
+                    </div>
+                    <div class="whitecards">
+                        <h2>05</h2>
+                        <h4>Innovations</h4>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi inventore temporibus quas, nulla officia deleniti enim laudantium.</p>
+                        <a href="#!">more</a>
+                    </div>
+                    <div class="whitecards">
+                        <h2>06</h2>
+                        <h4>24/7 Support</h4>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi inventore temporibus quas, nulla officia deleniti enim laudantium.</p>
+                        <a href="#!">more</a>
+                    </div>    
+                </div>    
             </div>
         </section>
         <!-- Sezione About Us -->
-        <section class="aboutus">
-            <h2 class="abouttitle">About Us</h2>
-            <p class="abouttext">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident voluptatibus corporis repudiandae accusamus nostrum, excepturi itaque accusantium autem placeat, repellat quos libero sapiente, cumque pariatur nisi rem aut velit tempore?</p>
-            <p class="abouttext">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque reprehenderit fugit aspernatur quis, ipsa voluptatem nihil delectus explicabo aliquam voluptatibus tenetur tempore quam? Voluptas repudiandae quasi ab, minima dolorem esse!</p>
-            <div class="aboutimg">
-                <img src="img/about.jpg" alt="">
-                <div class="aboutsimbol"><i class="fa fa-quote-left"></i></div>
+        <section class="aboutus container">
+            <div class="aboutustextcont">
+                <h2 class="abouttitle">About Us</h2>
+                <p class="abouttext">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident voluptatibus corporis repudiandae accusamus nostrum, excepturi itaque accusantium autem placeat, repellat quos libero sapiente, cumque pariatur nisi rem aut velit tempore?</p>
+                <p class="abouttext">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque reprehenderit fugit aspernatur quis, ipsa voluptatem nihil delectus explicabo aliquam voluptatibus tenetur tempore quam? Voluptas repudiandae quasi ab, minima dolorem esse!</p>
             </div>
-            <p class="aboutsubtitle">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea distinctio asperiores impedit quia repudiandae.</p>
-            <a href="#!"><i class="fa fa-linkedin-square"></i> Find me on Linkedin</a>
+            <div class="aboutusimgcont">
+                <div class="aboutimg">
+                    <img src="img/about.jpg" alt="">
+                    <div class="aboutsimbol"><i class="fa fa-quote-left"></i></div>
+                </div>
+                <p class="aboutsubtitle">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea distinctio asperiores impedit quia repudiandae.</p>
+                <a href="#!"><i class="fa fa-linkedin-square"></i> Find me on Linkedin</a>
+            </div>
         </section>
         <!-- Sezione Started -->
         <section class="backcolor textcenter">
@@ -156,8 +187,10 @@
         </section>
     </main>
     <footer class="textcenter">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta id porro quidem, odio, officiis voluptatum repellat doloremque inventore ipsam commodi distinctio.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora repudiandae neque!</p>
+        <div class="smallestcontainer">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta id porro quidem, odio, officiis voluptatum repellat doloremque inventore ipsam commodi distinctio.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora repudiandae neque!</p>
+        </div>
     </footer>
 </body>
 </html>
